@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.flipkartPlusZone">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="flipkartPlusZone1"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.flipkartPlusZone -->
+      <class name="tests.logOut">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="logOutTest"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.logOut -->
+      <class name="tests.invalidLogin">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="signIn"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="assertion"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.invalidLogin -->
+      <class name="tests.topOffers">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="assertion"/>
+          <include name="data"/>
+          <include name="offerZoneTest"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.topOffers -->
+      <class name="tests.explorePlus">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="explorePlusTest"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+          <include name="Assertion"/>
+        </methods>
+      </class> <!-- tests.explorePlus -->
+      <class name="tests.becomeASeller">
+        <methods>
+          <include name="BecomeASeller"/>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="assertion"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.becomeASeller -->
+      <class name="tests.returnPolicy">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="returnPolicyTest"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="assertion"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.returnPolicy -->
+      <class name="tests.cart">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="cartTest"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+          <include name="assertion1"/>
+        </methods>
+      </class> <!-- tests.cart -->
+      <class name="tests.signUp">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="SignUp"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.signUp -->
+      <class name="tests.giftCards">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="giftCardsTest"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.giftCards -->
+      <class name="tests.superCoinZone">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="superCoinZoneTest"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.superCoinZone -->
+      <class name="tests.advertise">
+        <methods>
+          <include name="assertion"/>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+          <include name="advertiseTest"/>
+        </methods>
+      </class> <!-- tests.advertise -->
+      <class name="tests.ValidLogin">
+        <methods>
+          <include name="assertion"/>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="signIn"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.ValidLogin -->
+      <class name="tests.fashion">
+        <methods>
+          <include name="assertion"/>
+        </methods>
+      </class> <!-- tests.fashion -->
+      <class name="tests.searchField">
+        <methods>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="searchFieldTest"/>
+          <include name="afterMethod"/>
+          <include name="assertion"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.searchField -->
+      <class name="tests.coupons">
+        <methods>
+          <include name="couponsTest"/>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.coupons -->
+      <class name="tests.mobilesAndTablets">
+        <methods>
+          <include name="assertion"/>
+        </methods>
+      </class> <!-- tests.mobilesAndTablets -->
+      <class name="tests.wishList">
+        <methods>
+          <include name="wishListTest"/>
+          <include name="inintializeSetup"/>
+          <include name="data"/>
+          <include name="afterMethod"/>
+          <include name="openApplicationUrl"/>
+        </methods>
+      </class> <!-- tests.wishList -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

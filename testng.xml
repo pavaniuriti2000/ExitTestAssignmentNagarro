@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.advertise"/>
+      <class name="tests.signUp"/>
+      <class name="tests.searchField"/>
+      <class name="tests.returnPolicy"/>
+      <class name="tests.flipkartPlusZone"/>
+      <class name="tests.invalidLogin"/>
+      <class name="tests.fashion"/>
+      <class name="tests.cart"/>
+      <class name="tests.myProfile"/>
+      <class name="tests.coupons"/>
+      <class name="tests.ValidLogin"/>
+      <class name="tests.explorePlus"/>
+      <class name="tests.becomeASeller"/>
+      <class name="tests.superCoinZone"/>
+      <class name="tests.orders"/>
+      <class name="tests.mobilesAndTablets"/>
+      <class name="tests.wishList"/>
+      <class name="tests.giftCards"/>
+      <class name="tests.logOut"/>
+      <class name="tests.topOffers"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
